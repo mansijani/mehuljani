@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>example10</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="../jquery.mobile-1.4.2.min.css" />
+	<link rel="stylesheet" href="../jquery.mobile.theme-1.4.2.min.css" />
+
+		<script type="text/javascript" src="../demos/js/jquery.js"></script>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../jquery.mobile-1.4.2.min.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+
+<form>
+    <input data-mini="true" value="Input" type="button">
+    <div class="ui-input-btn ui-btn ui-mini">
+        Enhanced
+        <input data-enhanced="true" value="Enhanced" type="button">
+    </div>
+</form>
+ <form>
+        <input data-icon="delete" value="Left (default)" type="button">
+        <input data-icon="delete" data-iconpos="right" value="Right" type="button">
+        <input data-icon="delete" data-iconpos="top" value="Top" type="button">
+        <input data-icon="delete" data-iconpos="bottom" value="Bottom" type="button">
+        <input data-icon="delete" data-iconpos="notext" value="Icon only" type="button">
+        <div class="ui-input-btn ui-btn ui-icon-delete ui-btn-icon-left">
+            Enhanced - Left
+            <input data-enhanced="true" value="Enhanced - Left" type="button">
+        </div>
+        <div class="ui-input-btn ui-btn ui-icon-delete ui-btn-icon-right">
+            Enhanced - Right
+            <input data-enhanced="true" value="Enhanced - Right" type="button">
+        </div>
+        <div class="ui-input-btn ui-btn ui-icon-delete ui-btn-icon-top">
+            Enhanced - Top
+            <input data-enhanced="true" value="Enhanced - Top" type="button">
+        </div>
+        <div class="ui-input-btn ui-btn ui-icon-delete ui-btn-icon-bottom">
+            Enhanced - Bottom
+            <input data-enhanced="true" value="Enhanced - Bottom" type="button">
+        </div>
+        <div class="ui-input-btn ui-btn ui-icon-delete ui-btn-icon-notext">
+            Enhanced - Icon only
+            <input data-enhanced="true" value="Enhanced - Icon only" type="button">
+        </div>
+</form>
+<form>
+    <input disabled="" value="Input button with disabled attribute" type="button">
+    <div class="ui-input-btn ui-btn ui-state-disabled">
+        Enhanced
+        <input disabled="" data-enhanced="true" value="Enhanced" type="button">
+    </div>
+</form>
+
+<form>
+    <input data-role="none" value="Button" type="button">
+    <input data-role="none" value="Submit" type="submit">
+    <input data-role="none" value="Reset" type="reset">
+</form>
+
+</body>
+</html>

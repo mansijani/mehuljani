@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+  <title>jQuery Mobile traveinfo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+ 
+	<link rel="stylesheet" href="../jquery.mobile-1.4.2.css" />
+	<link rel="stylesheet" href="../jquery.mobile.theme-1.4.2.css" />
+  	<link rel="stylesheet" href="../skin.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"/>
+	<link rel="stylesheet" href="../development-bundle/demos/demos.css"/>
+ 
+ 
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> 
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> 
+
+</head>
+<body >
+<div data-role="page" class="ui-body-c"  >
+	<div data-role="header" data-theme="a" data-position="fixed" class="myheader" >MY DemoMobile</div>
+	<div class="ui-bar-a"  data-position="fixed" style="height:5em; background-color:#214357">
+	<img src="../images/horse.jpg" alt="horse"/>
+	</div>
+   
+	<div role="main" data-role="content" class="ui-content" data-inset="false"  >
+	<div class="ui-body">
+	<p>
+		<img src="../images/cloud.png" alt="cloud" style="border:1px solid blue;"/>
+	</p>
+	</div>
+	
+	<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-inset="false">
+    <h4>Log in</h4>
+    <ul data-role="listview" data-inset="false">
+        <li>
+		<label for="email" class="ui-hidden-accessible">Email Address:</label>
+		<input name="email" id="textinput-4" placeholder="Email Address:" value="" type="email">
+		
+       	<label for="password" class="ui-hidden-accessible">Email Address:</label>
+		<input name="password" id="textinput-4" placeholder="Password:" value="" type="password">
+		
+		<input name="checkbox-1-a" id="checkbox-1-a" type="checkbox">
+        <label for="checkbox-1-a">Keep me logged in</label>
+		<button class="ui-btn">Log in</button>
+        <div class="ui-body"> <p><a href="#">Forgot Password?</a></p></div>
+        </li>
+    </ul>
+	</div>
+
+
+	<div data-role="collapsible" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-r" data-inset="false">
+    <h4>Sign up</h4>
+    <div class="ui-body"> <p><h4>10 GB of Stroage Free</h4>Share, access, and manage your files online</p></div>
+
+    <ul data-role="listview" data-inset="false">
+        <li>
+		<label for="email" class="ui-hidden-accessible">Email Address:</label>
+		<input name="email" id="textinput-4" placeholder="Email Address:" value="" type="email">
+		
+       	<label for="password" class="ui-hidden-accessible">Email Address:</label>
+		<input name="password" id="textinput-4" placeholder="Password:" value="" type="password">
+		
+		<input name="checkbox-2-a" id="checkbox-2-a" type="checkbox">
+        <label for="checkbox-2-a">Show Password</label>
+		<button class="ui-btn">Sign Up</button>
+        <div class="ui-body"> <p><a href="#" style="text-decoration:none;">Terms of Service</a></p></div>
+        </li>
+    </ul>
+	</div>
+
+    <div data-role="collapsible" data-collapsed-icon="phone" data-expanded-icon="phone" data-inset="false">
+    <h4>Box Mobile Up</h4>
+    <div class="ui-body" > 
+    <p><h4>Box for iphone</h4>Browse files and folders (10 GB free), share files on the go, upload files, and more.<br>
+        <a href="#" style="text-decoration:none;">Get the iPhone App </a> </p></div>
+
+     <div class="ui-body"> 
+    <p><h4>Box for Android</h4>Browse files and folders (10 GB free), share files on the go, upload files, and more.<br>
+     <a href="#" style="text-decoration:none;">Get the Android App </a> </p></div>
+         
+      
+	</div>
+
+
+   <div data-role="collapsible" data-collapsed-icon="edit" data-expanded-icon="edit" data-inset="false">
+    <h4>About</h4>
+    <div class="ui-body" > 
+    <p>Box provides simple, secure sharing from anywhere – letting users easily store files online, send big files fast, access content on          their mobile devices, and collaborate with others.</p></div>
+    
+    <div class="ui-body" >
+    <h4>Case Studies</h4>
+   
+    <p>With Box, the Six Flags team can now share large media assets without the hassles of on premise solutions or email.  </p></div>
+        
+      
+	</div>
+
+	<div class="ui-body ui-theme-a" >
+    <h1>Box for Mobile</h1>     
+    <p><a href="#" style="text-decoration: none;">10 GB FREE and browse your files on the go</a></p>
+    <p><a href="#" style="text-decoration: none;"> Upload files from your device to Box</a></p>
+    <p><a href="#" style="text-decoration: none;">Share your files with anyone from anywhere</a></p>
+    </div>
+    
+    
+        <div data-role="navbar" style="width:auto;" >
+    <ul>
+        <li><a href="#"  style="background-color:#214357 !important;color:white; ">Blog</a></li>
+        <li><a href="#" style="background-color:#214357 !important; color:white;">About Us</a></li>
+    </ul>
+    </div>
+    
+    </div>
+	
+	<div data-role="footer" data-position="fixed"  data-theme="b">
+
+
+      
+
+    <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+    <ul>
+        <li><a href="./geryhoundmobilehome.html" id="chat" data-icon="plus">Home</a></li>
+        <li><a href="#" id="email" data-icon="star">Travel info</a></li>
+        <li><a href="./geryhoundmobilepurchase.html" id="skull" data-icon="video">Purchase</a></li>
+        <li><a href="./geryhoundmobileabout.html" id="skull" data-icon="grid"  
+        style="background-color:#22AADD;">About us</a></li>
+        <li><a href="./geryhoundmobilecontact.html" id="skull" data-icon="phone">Contact us</a></li>
+    </ul>
+    </div>
+	</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+	<title>jQuery Mobile page contact</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"/>
+ 
+	<link rel="stylesheet" href="../jquery.mobile-1.4.2.css" />
+	<link rel="stylesheet" href="../jquery.mobile.theme-1.4.2.css" />
+  	<link rel="stylesheet" href="../skin.css" />
+  
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"/>
+	<link rel="stylesheet" href="../development-bundle/demos/demos.css"/>
+ 
+ 
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> 
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> 
+
+</head>
+<body>
+<div data-role="page" class="ui-body-c"  >
+	<div data-role="header" data-theme="a" data-position="fixed" class="myheader" >MY DemoMobile</div>
+	<div class="ui-bar-a"  data-position="fixed" style="height:5em; background-color:#214357">
+	<img src="../images/horse.jpg" alt="horse"/>
+	</div>
+   
+	<div role="main" data-role="content" class="ui-content"  >
+	
+    
+    <div class="listviewdiv" style="width:50%;margin-left:25%;">
+	<a href="#pagefour" style="text-decoration: none;"><button class="ui-btn ui-corner-all ui-btn-icon-right ui-icon-carat-r buttonhome">Call  </button> </a>
+	<a href="#pagethree" style="text-decoration: none;"><button class="ui-btn ui-corner-all ui-btn-icon-right ui-icon-carat-r buttonhome">Email</button></a>
+   	</div>
+		
+	</div>
+	
+	<div data-role="footer" data-position="fixed"  data-theme="b">
+    <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+    <ul>
+       <li><a href="./geryhoundmobilehome.html"  data-icon="plus">Home</a></li>
+        <li><a href="./geryhoundmobiletravelinfo.html" data-icon="star">Travel info</a></li>
+        <li><a href="./geryhoundmobilepurchase.html"  data-icon="video">Purchase</a></li>
+        <li><a href="./geryhoundmobileabout.html"  data-icon="grid">About us</a></li>
+        <li><a href="./geryhoundmobilecontact.html#pagefour"  data-icon="phone" 
+            style="background-color:#22AADD;">Contact us</a></li>
+        
+        
+    </ul>
+    </div>
+	</div>
+</div>
+
+
+<!---Start of second page-->
+
+    <div data-role="page" id="pagefour" class="ui-body-c"  >
+	<div data-role="header" data-theme="a" data-position="fixed" class="myheader" >MY DemoMobile</div>
+	<div class="ui-bar-a"  data-position="fixed" style="height:5em; background-color:#214357">
+	<img src="../images/horse.jpg" alt="horse"/>
+	</div>
+   
+	<div role="main" data-role="content" class="ui-content" style="margin:auto; max-width:450px;" >
+	
+        	
+	<ul data-role="listview" data-inset="true" >
+  
+    <li class="listviewli"><a class="listviewtravelinfo" href="#">Reservations</a></li>
+    <li class="listviewli"><a class="listviewtravelinfo" href="#">Customer Service</a></li>
+	<li class="listviewli"><a class="listviewtravelinfo" href="#">Baggage Service</a></li>
+    <li class="listviewli"><a class="listviewtravelinfo" href="#">Package Express</a></li>
+   	</ul>
+		
+	</div>
+	
+	<div data-role="footer" data-position="fixed"  data-theme="b">
+    <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+    <ul>
+         <li><a href="./geryhoundmobilehome.html"  data-icon="plus">Home</a></li>
+        <li><a href="./geryhoundmobilepurchase.html"  data-icon="video">Purchase</a></li>
+        <li><a href="./geryhoundmobilepurchase.html"  data-icon="video">Purchase</a></li>
+        <li><a href="./geryhoundmobileabout.html"  data-icon="grid">About us</a></li>
+        <li><a href="./geryhoundmobilecontact.html"  data-icon="phone" style="background-color:#22AADD;">Contact us</a></li>
+        
+    </ul>
+    </div>
+	</div>
+</div>
+
+<!--End of second page--->
+<!---Start of third page-->
+<div data-role="page" id="pagethree" class="ui-body-c"  >
+	<div data-role="header" data-theme="a" data-position="fixed" class="myheader" >MY DemoMobile</div>
+	<div class="ui-bar-a"  data-position="fixed" style="height:5em; background-color:#214357">
+	<img src="../images/horse.jpg" alt="horse"/>
+	</div>
+   
+	<div role="main" data-role="content" class="ui-content" style="margin:auto; max-width:450px;" >
+		
+    <div data-role="collapsibleset" >
+    <div data-role="collapsible" class="collapsiblelistview" >
+    <h3 >Reservations</h3>
+    <p>If you need information regarding Greyhound’s Fares and Schedules or assistance with planning your travel,          please select one of the email addresses provided below. You will receive a response to your inquiry in a           timely manner.
+    <label for="submit-5" class="ui-hidden-accessible">Send:</label>
+    <button class="ui-shadow ui-btn ui-corner-all" type="submit" >Email</button>
+    <label for="submit-6" class="ui-hidden-accessible">Send:</label>
+    <button class="ui-shadow ui-btn ui-corner-all" type="submit">Web Support</button>
+    </p>
+    </div>
+    <div data-role="collapsible" class="collapsiblelistview">
+        <h3>Customer Service</h3>
+    <p>
+     If you have questions or concerns related to your travel with Greyhound, please select one of the email             addresses provided below. Once the email address is selected please complete the online form that appears on        your screen and submit for a response.
+    
+    <label for="submit-7" class="ui-hidden-accessible">Send:</label>
+    <button class="ui-shadow ui-btn ui-corner-all" type="submit" >Online Form</button>
+    
+     <label for="submit-8" class="ui-hidden-accessible">Send:</label>
+    <button class="ui-shadow ui-btn ui-corner-all" type="submit" >Refund</button>
+    </p>
+    </div>
+    <div data-role="collapsible" class="collapsiblelistview">
+        <h3>Baggage Service</h3>
+    <p>For questions regarding Baggage Claims and Services, please select appropriate email address for assistance.     Once email address has been selected please complete the online form that appears on your screen. A response        will be given in a timely manner.
+    
+    <label for="submit-9" class="ui-hidden-accessible">Send:</label>
+    <button class="ui-shadow ui-btn ui-corner-all" type="submit">Handling Request</button>
+    
+     <label for="submit-10" class="ui-hidden-accessible">Send:</label>
+    <button class="ui-shadow ui-btn ui-corner-all" type="submit">Locator service</button>
+        
+    </p>
+    </div>
+  <div data-role="collapsible" class="collapsiblelistview">
+    <h3>Package Express</h3>
+    <p>For your shipping needs, please contract  Package Express at the email below.
+    <label for="submit-11" class="ui-hidden-accessible">Send:</label>
+    <button class="ui-shadow ui-btn ui-corner-all" type="submit">Mobile Assistance</button>
+    
+    </p>
+    </div>
+	</div>
+		
+	</div>
+	
+	<div data-role="footer" data-position="fixed"  data-theme="b">
+    <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+    <ul>
+         <li><a href="./geryhoundmobilehome.html"  data-icon="plus">Home</a></li>
+       <li><a href="./geryhoundmobilepurchase.html"  data-icon="video">Purchase</a></li>
+        <li><a href="./geryhoundmobilepurchase.html"  data-icon="video">Purchase</a></li>
+        <li><a href="./geryhoundmobileabout.html" data-icon="grid">About us</a></li>
+        <li><a href="./geryhoundmobilecontact.html" data-icon="phone" 
+        style="background-color:#22AADD;">Contact us</a></li>
+    </ul>
+    </div>
+	</div>
+</div>
+</body>
+</html>

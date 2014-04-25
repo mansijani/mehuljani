@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="./css/ui-lightness/jquery-ui-1.10.4.custom.css" type="text/css" />
+<link rel="stylesheet" href="./css/ui-lightness/jquery-ui-1.10.4.custom.min.css" type="text/css" />
+
+<script type="text/javascript" src="./js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.10.4.custom.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.10.4.custom.min.js"></script>
+<meta charset="utf-8">
+<title>jQuery UI Progressbar - Indeterminate Value</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"/>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="./development-bundle/demos/demos.css"/>
+ <script src="./development-bundle/external/jquery.mousewheel.js"></script>
+
+<script>
+$(function() {
+function latlong() {
+return new google.maps.LatLng( $("#lat").val(), $("#lng").val() );
+}
+function position() {
+map.setCenter( latlong() );
+}
+$( "#lat, #lng" ).spinner({
+step: .001,
+change: position,
+stop: position
+});
+var map = new google.maps.Map( $("#map")[0], {
+zoom: 8,
+center: latlong(),
+mapTypeId: google.maps.MapTypeId.ROADMAP
+});
+}); 
+</script>
+
+<style>
+#map 
+{
+width:500px;
+height:500px;
+}
+</style>
+
+</head>
+
+
+<body>
+<label for="lat">Latitude</label>
+<input id="lat" name="lat" value="44.797">
+<br>
+<label for="lng">Longitude</label>
+<input id="lng" name="lng" value="-93.278">
+<div id="map"></div>
+
+</body>
+</html>

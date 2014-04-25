@@ -1,0 +1,106 @@
+/*page center div*/
+button
+{background-color:#374E5C !important;
+color:#E1E1E1!important;
+border-radius:2em !important;
+
+font-size:10px;}
+
+button:hover
+{background-color:orange !important;
+color:#E1E1E1 !important;}
+
+img
+{width:10em;
+height:5em;
+margin-left:45%;}
+
+.myheader
+{width:100%;
+text-align:center;
+ color: rgb(133, 132, 132);}
+
+@media all and (max-width:400px)
+{
+img
+{
+margin-left:20%;
+}
+
+.buttonhome
+{
+width:150% !important;
+
+}
+}
+
+.ui-body-c
+{background-color:#E7ECF0 !important;}
+
+.radiobox
+{float:left;
+margin-top:1.5em;
+margin-right:2em;}
+
+element.style
+{z-index:2 !important;}
+
+@media all and (max-width:400px;)
+{
+button.formbutton
+{
+float:left;
+width:100% ! important; 
+}
+}
+
+p.text1
+{font-size:12px !important;
+color:orange;}
+
+.listviewtravelinfo
+{background-color:#365060 !important;
+color:white! important;
+font-weight:normal;
+
+}
+
+
+
+li.listviewli
+{margin-bottom:5px !important;
+  border-radius: 20px!important;
+}
+
+.listviewtravelinfo:hover, ul li.dividertravelinfo:hover
+{background-color:orange !important;}
+
+ ul li.dividertravelinfo
+{background-color:black !important;
+color:white! important;}
+
+.boxacoordian.u-body-inherit
+ {background-color: #365060 !important;
+}
+
+.collapsiblelistview a.ui-btn
+{
+  background-color: #365060 !important;  
+  margin-bottom: 5px;
+  color: white;
+  border-radius:20px !important;
+}
+
+.collapsiblelistview a.ui-btn:hover
+{background-color: orange !important;  
+ border-radius:20px !important; 
+ color: white;
+}
+
+#textinput-4 
+{background-color: #F6F6F6 !important;
+}
+
+#textinput-4:hover
+ {background-color: #E1E1E1 !important;
+}

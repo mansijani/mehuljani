@@ -1,0 +1,257 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+  <title>jQuery Mobile Purchase</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"/>
+ 
+	<link rel="stylesheet" href="../jquery.mobile-1.4.2.css" />
+	<link rel="stylesheet" href="../jquery.mobile.theme-1.4.2.css" />
+  	<link rel="stylesheet" href="../skin.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"/>
+	<link rel="stylesheet" href="../development-bundle/demos/demos.css"/>
+ 
+ 
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> 
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> 
+	
+ 
+  
+</head>
+<body>
+   
+<!---start of first page---->
+<div data-role="page" id="pageone" class="ui-body-c" >
+	<div data-role="header" data-theme="a" data-position="fixed" class="myheader" >MY DemoMobile</div>
+	<div class="ui-bar-a"  data-position="fixed" style="height:5em; background-color:#214357">
+	<img src="../images/horse.jpg" alt="horse"/>
+	</div>
+   
+	<div role="main"  data-role="content" class="ui-content, " style="margin:auto; max-width:450px;" >
+	  
+	<form>
+    <ul data-role="listview"  data-theme="b" data-inset="true">
+	
+		<li class="ui-field-contain ui-grid-a" style="z-index:0;">
+		<div class="ui-block-a"><a href="#pageone" class="ui-btn ui-corner-all ">One Way</a></div>
+		<div class="ui-block-b"><a href="#pagetwo" class="ui-btn ui-corner-all ">Round Trip</a></div>
+       	</li>
+		
+        <li class="ui-field-contain ui-grid-solo ">
+       	<div class="ui-block-a">
+		<label for="search-14" class="ui-hidden-accessible">Leaving from....</label>
+		<input name="search-14" placehol1er="Leaving from...."  type="search"  class="inputborder" >
+		
+       </div>
+	   </li>
+	   
+	    <li class="ui-field-contain ui-grid-solo ">
+       	<div class="ui-block-a ">
+		<label for="search-114" class="ui-hidden-accessible">Going to....</label>
+		<input  name="search-114" placeho11er="Going to...." type="search" >
+       </div>
+	   </li>
+	   
+	   <li class="ui-field-contain">
+            <label for="name6">*Departing:</label>
+            <input type="text" class="datepicker">
+        </li>
+	     
+        <li class="ui-field-contain" >
+    
+    <select name="select-custom-12" id="select-custom-12" data-native-menu="false" data-mini="true" >
+        <option value="1">1- Adult</option>
+        <option value="2">2- Adults</option>
+        <option value="3">3- Adults</option>
+        <option value="4">4- Adults</option>
+		<option value="5">5- Adults</option>
+		<option value="6">0- Adults</option>
+    </select>
+	
+	 <select name="select-custom-13" id="select-custom-13" data-native-menu="false" data-mini="true">
+        <option value="1">0- Children</option>
+        <option value="2">1- Child</option>
+        <option value="3">2- Children</option>
+        <option value="4">3- Children</option>
+		<option value="5">4- Children</option>
+		<option value="6">5- Children</option>
+    </select>
+	
+	 <select name="select-custom-14" id="select-custom-14" data-native-menu="false" data-mini="true">
+        <option value="1">0-Senior (62+)</option>
+        <option value="2">1- Senior</option>
+        <option value="3">2- Seniors</option>
+        <option value="4">3- Seniors</option>
+		<option value="5">4- Seniors</option>
+		<option value="6">5- Seniors</option>
+    </select>
+	
+        </li>
+		
+		<li class="ui-field-contain" >
+		<select name="select-custom-15" id="select-custom-15" data-native-menu="false" data-mini="true">
+        <option value="1">Wheelchair-No</option>
+        <option value="2">Wheelchair-Yes</option>
+		</select>
+		</li>
+		
+        <li class="ui-field-contain">
+        <p class="text1"> * Indicates a required entry</p>
+        </li>
+       <li class="ui-field-contain ui-body ui-body-b">
+            <fieldset class="ui-grid-solo">
+                   
+            <div class="ui-block-a"> <button type="submit" class="ui-btn ui-corner-all ui-btn-a formbutton">Submit</button></div>
+            </fieldset>
+    </li> 
+       
+       
+    </ul>
+	
+</form>
+	
+	
+</div>
+	<div data-role="footer" data-position="fixed"  data-theme="b">
+    <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+    <ul>
+        <li><a href="./geryhoundmobilehome.html" data-icon="plus">Home</a></li>
+        <li><a href="./geryhoundmobiletravelinfo.html" data-icon="star">Travel info</a></li>
+        <li><a href="./geryhoundmobilepurchase.html" data-icon="video" 
+            style="background-color:#22AADD;">Purchase</a></li>
+        <li><a href="./geryhoundmobileabout.html" data-icon="grid">About us</a></li>
+        <li><a href="./geryhoundmobilecontact.html" data-icon="phone">Contact us</a></li>
+
+
+       
+    </ul>
+    </div>
+	</div>
+	
+</div><!---End of first page---->
+
+
+<!---Start of Two page---->
+
+<div data-role="page" id="pagetwo" class="ui-body-c" >
+	<div data-role="header" data-theme="a" data-position="fixed" class="myheader" >MY DemoMobile</div>
+	<div class="ui-bar-a"  data-position="fixed" style="height:5em; background-color:#214357">
+	<img src="../images/horse.jpg" alt="horse"/>
+	</div>
+   
+	<div role="main"  data-role="content" class="ui-content, " style="margin:auto; max-width:450px;" >
+	
+  
+	<form>
+    <ul data-role="listview"  data-theme="b" data-inset="true">
+	
+		<li class="ui-field-contain ui-grid-a" style="z-index:0;">
+	<div class="ui-block-a"><a href="#pageone" class="ui-btn ui-corner-all ">One Way</a></div>
+		<div class="ui-block-b"><a href="#pagetwo" class="ui-btn ui-corner-all ">Round Trip</a></div>
+       	</li>
+		
+        <li class="ui-field-contain ui-grid-solo ">
+       	<div class="ui-block-a">
+		<label for="search-21" class="ui-hidden-accessible">Leaving from....</label>
+		<input name="search-21"  placeholder="Leaving from...."  type="search"  class="inputborder" >
+		
+       </div>
+	   </li>
+	   
+	    <li class="ui-field-contain ui-grid-solo ">
+       	<div class="ui-block-a ">
+		<label for="search-22" class="ui-hidden-accessible">Going to....</label>
+		<input  name="search-22"  placeholder="Going to...." type="search" >
+       </div>
+	   </li>
+	   
+	   <li class="ui-field-contain">
+            <label for="name2">*Departing:</label>
+            <input type="text" class="datepicker">
+        </li>
+	  
+	   <li class="ui-field-contain">
+            <label for="name3">*Returning:</label>
+            <input type="text" class="datepicker">
+        </li>
+	   
+        <li class="ui-field-contain" >
+    
+    <select name="select-custom-12" id="select-custom-17" data-native-menu="false" data-mini="true" >
+        <option value="1">1- Adult</option>
+        <option value="2">2- Adults</option>
+        <option value="3">3- Adults</option>
+        <option value="4">4- Adults</option>
+		<option value="5">5- Adults</option>
+		<option value="6">0- Adults</option>
+    </select>
+	
+	 <select name="select-custom-13" id="select-custom-18" data-native-menu="false" data-mini="true">
+        <option value="1">0- Children</option>
+        <option value="2">1- Child</option>
+        <option value="3">2- Children</option>
+        <option value="4">3- Children</option>
+		<option value="5">4- Children</option>
+		<option value="6">5- Children</option>
+    </select>
+	
+	 <select name="select-custom-14" id="select-custom-19" data-native-menu="false" data-mini="true">
+        <option value="1">0-Senior (62+)</option>
+        <option value="2">1- Senior</option>
+        <option value="3">2- Seniors</option>
+        <option value="4">3- Seniors</option>
+		<option value="5">4- Seniors</option>
+		<option value="6">5- Seniors</option>
+    </select>
+	
+        </li>
+		
+		<li class="ui-field-contain" >
+		<select name="select-custom-15" id="select-custom-20" data-native-menu="false" data-mini="true">
+        <option value="1">Wheelchair-No</option>
+        <option value="2">Wheelchair-Yes</option>
+		</select>
+		</li>
+		
+        <li class="ui-field-contain">
+        <p class="text1"> * Indicates a required entry</p>
+        </li>
+       <li class="ui-field-contain ui-body ui-body-b"  >
+            <fieldset class="ui-grid-solo">
+                   
+            <div class="ui-block-a"> <button type="submit" class="ui-btn ui-corner-all ui-btn-a formbutton">Submit</button></div>
+            </fieldset>
+		</li> 
+           
+    </ul>
+	</form>	
+</div>	
+
+<div data-role="footer" data-position="fixed"  data-theme="b">
+    <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+    <ul>
+         <li><a href="./geryhoundmobilehome.html" data-icon="plus">Home</a></li>
+        <li><a href="./geryhoundmobiletravelinfo.html" data-icon="star">Travel info</a></li>
+        <li><a href="./geryhoundmobilepurchase.html" data-icon="video" 
+        style="background-color:#22AADD;">Purchase</a></li>
+        <li><a href="./geryhoundmobileabout.html" data-icon="grid">About us</a></li>
+        <li><a href="./geryhoundmobilecontact.html"  data-icon="phone">Contact us</a></li>
+    </ul>
+    </div>
+	</div>
+</div>
+
+<script>
+ $(function() {
+$( ".datepicker" ).datepicker({
+showButtonPanel: true
+});
+});
+
+</script>
+
+</body>
+</html>

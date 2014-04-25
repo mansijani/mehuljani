@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+  <title>jQuery Mobile traveinfo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+ 
+	<link rel="stylesheet" href="../jquery.mobile-1.4.2.css" />
+	<link rel="stylesheet" href="../jquery.mobile.theme-1.4.2.css" />
+  	<link rel="stylesheet" href="../skin.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"/>
+	<link rel="stylesheet" href="../development-bundle/demos/demos.css"/>
+ 
+ 
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> 
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> 
+
+</head>
+<body >
+<div data-role="page" class="ui-body-c"  >
+	<div data-role="header" data-theme="a" data-position="fixed" class="myheader" >MY DemoMobile</div>
+	<div class="ui-bar-a"  data-position="fixed" style="height:5em; background-color:#214357">
+	<img src="../images/horse.jpg" alt="horse"/>
+	</div>
+   
+	<div role="main" data-role="content" class="ui-content" style="margin:auto; max-width:450px;" >
+		
+	<ul data-role="listview" data-inset="true" >
+    <li  class="dividertravelinfo" data-role="list-divider">About DemoMobile</li>
+    <li ><a class="listviewtravelinfo" href="./dialogmobileoverview.html">MOBILE OVERVIEW</a></li>
+    <li><a class="listviewtravelinfo" href="./dialogpurchaseoptions.html">PURCHASE OPTIONS</a></li>
+	<li><a class="listviewtravelinfo" href="./dialogdeals&discounts.html">DEALS & DISCOUNTS</a></li>
+   	</ul>
+	
+	<ul data-role="listview" data-inset="true" data-divider-theme="a">
+    <li class="dividertravelinfo" data-role="list-divider">GENERAL INFO</li>
+    <li><a class="listviewtravelinfo" href="./dialogbaggageinfo.html">BAGGAGE INFO</a></li>
+    <li><a class="listviewtravelinfo" href="./dialogaddtravel.html">ADD TRAVEL</a></li>
+	<li><a class="listviewtravelinfo" href="./dialogretrieveticket.html">RETRIEVE TICKET</a></li>
+	<li><a class="listviewtravelinfo" href="./dialogservice&routes.html">SERVICE & ROUTES</a></li>
+	<li><a class="listviewtravelinfo" href="./dialogchildrentravelling.html">CHILDREN TRAVELLING</a></li>
+   	</ul>
+	
+		<ul data-role="listview" data-inset="true" data-divider-theme="a">
+    <li class="dividertravelinfo" data-role="list-divider">MOBILE POLICIES</li>
+    <li><a class="listviewtravelinfo" href="./dialogwebsiteterms.html">WEBSITE TERMS</a></li>
+    <li><a class="listviewtravelinfo" href="./dialogterms&conditions.html">TERMS & CONDITION</a></li>
+	<li><a class="listviewtravelinfo" href="./dialogprivacypolicy.html">PRIVACY POLICY</a></li>
+	<li><a class="listviewtravelinfo" href="./dialogrefundpolicy.html">REFUND POLICY</a></li>
+	<li><a class="listviewtravelinfo" href="./dialogcopyrightnotice.html">COPYRIGHT NOTICE</a></li>
+   	</ul>
+
+	
+	</div>
+	
+	<div data-role="footer" data-position="fixed"  data-theme="b">
+    <div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+    <ul>
+          <li><a href="./geryhoundmobilehome.html" id="chat" data-icon="plus">Home</a></li>
+        <li><a href="#" id="email" data-icon="star" style="background-color:#22AADD">Travel info</a></li>
+        <li><a href="./geryhoundmobilepurchase.html" id="skull" data-icon="video">Purchase</a></li>
+        <li><a href="./geryhoundmobileabout.html" id="skull" data-icon="grid">About us</a></li>
+        <li><a href="./geryhoundmobilecontact.html" id="skull" data-icon="phone">Contact us</a></li>
+    </ul>
+    </div>
+	</div>
+</div>
+
+
+</body>
+</html>
